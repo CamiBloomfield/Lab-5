@@ -10,7 +10,7 @@ Input: None
 Output: The sound Baby Shark, with three verses:
         Baby Shark,
         doo-doo-doo-do-do-do-do *3
-        Baby Shark!
+        Baby Shark!pyth
         Mommy Shark,
         doo-doo-doo-do-do-do-do *3
         Mommy Shark!
@@ -25,7 +25,7 @@ Output: The sound Baby Shark, with three verses:
 REPEAT = 3
 
 def shark_verse(shark):
-    for _ in range(3):
+    for _ in range(REPEAT):
         print(shark, " Shark,")
         print("doo-doo-doo-do-do-do-do")
     print(shark, " Shark!")
