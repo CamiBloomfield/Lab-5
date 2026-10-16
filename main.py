@@ -26,9 +26,9 @@ REPEAT = 3
 
 def shark_verse(shark):
     for _ in range(REPEAT):
-        print(shark, " Shark,")
+        print(shark, "Shark,")
         print("doo-doo-doo-do-do-do-do")
-    print(shark, " Shark!")
+    print(shark, "Shark!")
 
 def main():
     shark_verse("Baby")
